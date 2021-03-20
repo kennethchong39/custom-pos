@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './Order.css';
 
 export default function Order(props) {
-  // to keep track of the order state if it is complete
+  // to keep track of the order state
   const [isComplete, setIsComplete] = useState(false);
 
   // to update the is complete state once the button is clicked
