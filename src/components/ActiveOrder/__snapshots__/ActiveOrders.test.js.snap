@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component: Active Orders tests 1`] = `
+<div
+  className="active-order"
+>
+  <div
+    className="active-order-header"
+  >
+    <h2>
+      All Orders
+    </h2>
+    <hr />
+  </div>
+  <div
+    className="order-item"
+  >
+    <div
+      className="order-item-flex"
+    >
+      <h3>
+        Order Number
+      </h3>
+      <h3>
+        # 
+        1
+      </h3>
+    </div>
+    <div
+      className="order-item-flex-light"
+    >
+      <p>
+        Vegetarian
+      </p>
+      <p>
+        x 
+        1
+      </p>
+      <p>
+        $ 
+        8.99
+      </p>
+    </div>
+    <div
+      className="order-item-flex"
+    >
+      <p>
+        Total
+      </p>
+      <p>
+        $ 
+        8.99
+      </p>
+    </div>
+    <button
+      className="order-item-button"
+      disabled={false}
+      onClick={[Function]}
+    >
+      Complete ?
+    </button>
+  </div>
+</div>
+`;

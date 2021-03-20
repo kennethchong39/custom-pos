@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component: App tests 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="header"
+  >
+    <h1>
+      <span
+        className="deliverr"
+      >
+        Deliverr
+      </span>
+       Café
+    </h1>
+  </div>
+  <div
+    className="body"
+  >
+    <div
+      className="menu"
+    >
+      <div
+        className="menu-title"
+      >
+        <h2>
+          Menu
+        </h2>
+      </div>
+      <hr />
+      <div
+        className="menu-items"
+      />
+    </div>
+    <div
+      className="current-order"
+    >
+      <div
+        className="current-order-header"
+      >
+        <h2>
+          Cart
+        </h2>
+        <hr />
+      </div>
+      <div
+        className="current-orders"
+      >
+        <div
+          className="current-item-empty"
+        >
+          <p>
+            Empty Cart
+          </p>
+        </div>
+      </div>
+      <div
+        className="current-order-footer"
+      >
+        <div
+          className="current-order-total"
+        >
+          <p>
+            Total
+          </p>
+          <p>
+            $ 
+            0
+          </p>
+        </div>
+        <button
+          className="disabled"
+          disabled={true}
+          onClick={[Function]}
+        >
+          Submit Order
+        </button>
+      </div>
+    </div>
+    <div
+      className="active-order"
+    >
+      <div
+        className="active-order-header"
+      >
+        <h2>
+          All Orders
+        </h2>
+        <hr />
+      </div>
+    </div>
+  </div>
+</div>
+`;

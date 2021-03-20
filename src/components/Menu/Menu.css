@@ -1,0 +1,42 @@
+.menu-title {
+  text-align: center;
+}
+
+.menu-title h2 {
+  margin: 0px;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.item {
+  display: inline-block;
+  height: 40%;
+  width: 45%;
+  border: none;
+  border-radius: 5%;
+  background-color: #ff3a33;
+  color: white;
+  margin: 0.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.item button {
+  border: none;
+  outline: none;
+  background-color: white;
+  padding: 10px 10px;
+  font-size: 0.8rem;
+  width: 95%;
+}
+
+.item button:active {
+  background-color: #d81913;
+}

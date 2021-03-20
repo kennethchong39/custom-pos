@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component: Cart tests 1`] = `
+<div
+  className="current-order"
+>
+  <div
+    className="current-order-header"
+  >
+    <h2>
+      Cart
+    </h2>
+    <hr />
+  </div>
+  <div
+    className="current-orders"
+  >
+    <div
+      className="current-item"
+    >
+      <p>
+        Vegetarian
+      </p>
+      <p>
+        x 
+        1
+      </p>
+      <p>
+        $ 
+        8.99
+      </p>
+    </div>
+  </div>
+  <div
+    className="current-order-footer"
+  >
+    <div
+      className="current-order-total"
+    >
+      <p>
+        Total
+      </p>
+      <p>
+        $ 
+        0
+      </p>
+    </div>
+    <button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+    >
+      Submit Order
+    </button>
+  </div>
+</div>
+`;

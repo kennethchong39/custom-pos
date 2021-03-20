@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component: Menu tests 1`] = `
+<div
+  className="menu"
+>
+  <div
+    className="menu-title"
+  >
+    <h2>
+      Menu
+    </h2>
+  </div>
+  <hr />
+  <div
+    className="menu-items"
+  >
+    <div
+      className="item"
+    >
+      <h3>
+        Vegetarian
+      </h3>
+      <p>
+        $ 
+        8.99
+      </p>
+      <button
+        className=""
+        onClick={[Function]}
+      >
+        ADD TO CART
+      </button>
+    </div>
+    <div
+      className="item"
+    >
+      <h3>
+        BLT
+      </h3>
+      <p>
+        $ 
+        9.99
+      </p>
+      <button
+        className=""
+        onClick={[Function]}
+      >
+        ADD TO CART
+      </button>
+    </div>
+    <div
+      className="item"
+    >
+      <h3>
+        Turkey
+      </h3>
+      <p>
+        $ 
+        10.99
+      </p>
+      <button
+        className=""
+        onClick={[Function]}
+      >
+        ADD TO CART
+      </button>
+    </div>
+  </div>
+</div>
+`;

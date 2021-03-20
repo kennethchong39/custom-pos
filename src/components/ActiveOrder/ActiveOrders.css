@@ -1,0 +1,17 @@
+.active-order {
+  overflow: scroll;
+  padding: 0 10px;
+}
+
+.active-order-header {
+  padding-top: 10px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  margin-bottom: 3px;
+}
+
+.active-order-header h2 {
+  margin: 0px;
+}

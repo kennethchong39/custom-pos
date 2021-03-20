@@ -1,0 +1,41 @@
+.order-item {
+  padding: 15px 10px;
+  border: none;
+  border-radius: 5%;
+  background-color: #00d3b5;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0px 5px 15px;
+}
+
+.order-item.complete {
+  background-color: orange;
+}
+
+.order-item h3 {
+  margin: 0px;
+}
+
+.order-item-button {
+  width: 80%;
+  padding: 0.5rem;
+  background-color: white;
+  border: none;
+  text-transform: uppercase;
+}
+
+.order-item-flex {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.order-item-flex-light {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 30px;
+  font-size: 1.3rem;
+  border-bottom: 1px solid black;
+}
